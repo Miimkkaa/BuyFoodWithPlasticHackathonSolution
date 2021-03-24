@@ -1,13 +1,172 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #e4e4e4;
+  font-family: "Fjalla One", sans-serif;
+  letter-spacing: 1px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+.list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.listitem {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.receipt-title {
+  color: black;
+  margin-bottom: 4rem;
+  margin-top: 8rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.container-x-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.x_style {
+  background-color: #e3f2fd;
+  padding: 0.35rem 0.7rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-add {
+  display: inline-block;
+  background: black;
+  color: white;
+  border-color: transparent;
+  margin-top: 2.5rem;
+  letter-spacing: 1px;
+  padding: 0.25rem 0.25rem;
+  text-transform: capitalize;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  width: 100%;
+  font-weight: bold;
+}
+
+.amount {
+  padding: 0.25rem 0.5rem;
+  width: 3rem;
+  border-radius: 5px;
+  border: none;
+  margin: 0 0.5rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.name {
+  padding: 0.25rem 0.5rem;
+  width: 7rem;
+  border-radius: 5px;
+  border: none;
+  margin: 0 0.5rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.label {
+  padding: 10px;
+}
+
+.form-control {
+  display: flex;
+}
+
+.product-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingPage {
+  background-image: url("./images/homepage.png");
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bot {
+  width: 20%;
+  height: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+.receiptButton {
+  display: inline-block;
+  background: black;
+  color: white;
+  border-color: transparent;
+  margin-top: 2.5rem;
+  padding: 0.45rem 0.45rem;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.totalPrices {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.receipts-page {
+  /* background-image: url("./images/recyle.jpg");
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-size: cover;
+  background-color: gray; */
 }
