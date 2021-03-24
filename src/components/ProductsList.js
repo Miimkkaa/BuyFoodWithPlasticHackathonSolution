@@ -3,7 +3,9 @@ import { v4 as uuidv4 } from "uuid";
 import Product from "./Product";
 import Loading from "./Loading";
 import AddNewProduct from "./AddNewProduct";
+import GetReceipts from "./GetReceipts";
 import firebaseConfig from "./Firebase";
+import "firebase/firestore";
 
 const ProductsList = () => {
   const [products, setProducts] = useState([]);
@@ -17,7 +19,7 @@ const ProductsList = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setLoading(false);
-    }, 800);
+    }, 1500);
     return () => {
       clearTimeout(timeout);
     };
@@ -52,15 +54,13 @@ const ProductsList = () => {
     setProducts(newProducts);
   };
 
-  const AddReceipt = () => {
+  const onCreate = () => {
     const db = firebaseConfig.firestore();
-    // Here we just add the object into the database
-
     db.collection("spells").add({
-      // title: movie.title,
-      // vote_average: movie.vote_average,
-      // poster_src: movie.poster_src,
-      // userId: firebaseConfig.auth().currentUser.uid,
+      name: text,
+      amount: amount,
+      price: price,
+      total: sumProduct,
     });
   };
 
@@ -101,15 +101,12 @@ const ProductsList = () => {
         {products.length > 0 && (
           <article>
             <div className="totalPrices">Total: $1500{totalPrice}</div>
-            <button
-              className="receiptButton"
-              type="submit"
-              onSubmit={AddReceipt}
-            >
+            <button className="receiptButton" type="submit" onClick={onCreate}>
               Submit Receipt
             </button>
           </article>
         )}
+        <GetReceipts />
       </div>
     </main>
   );

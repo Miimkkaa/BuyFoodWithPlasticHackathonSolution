@@ -4,7 +4,11 @@ import imageLoading from "../images/garbagePerson.gif";
 const Loading = () => {
   return (
     <article className="main">
-      <img src={imageLoading} alt="garbage person"></img>
+      <img
+        src={imageLoading}
+        style={{ width: "50%" }}
+        alt="garbage person"
+      ></img>
     </article>
   );
 };
