@@ -1,5 +1,5 @@
 ## Receipts Management System
-Receipts Management System is a web based solution that we are submitting to the "Climate Hackathon" organized by Microsoft in partnership with Stratiteq Sweden AB.
+Receipts Management System is a web based solution that we are submitting to the "Climate Hackathon" organized by Microsoft in partnership with Stratiteq Sweden AB. We managed to create a system in which the company can submit a digital receipt, which they are going to write manually on the website, as well as check all receipts, that has been submitted already. We chose to build the system with React and Firebase, because that way, the system and code can easily be extended in the future. We have also added a bot from the Power Virtual Agents, that will provide the user with important information and answer different questions.
 
 ## Our Demo
 [Receipts Management System](https://firebase.google.com/docs/firestore)
