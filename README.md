@@ -1,7 +1,7 @@
 ## Receipts Management System
 
 ## Our Demo
-- [Receipts Management System](https://firebase.google.com/docs/firestore)
+[Receipts Management System](https://firebase.google.com/docs/firestore)
 
 ## Motivation
 As a team we were inspired by the idea behind the hackathon - fighting climate change with technologies. By looking through all the organizations that took part of the hakacthon, we decided to tackle the challenge of "Waste". We choose the organization "Buy Food With Plastic" mostly because of their ideals and goals. We were inspired by their message - recycling plastic bottles and providing food for many families in some of the poorest countries in the world.
