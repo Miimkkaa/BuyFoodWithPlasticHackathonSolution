@@ -1,12 +1,6 @@
 ## Receipts Management System
 Receipts Management System is a web based solution that we are submitting to the "Climate Hackathon" organized by Microsoft in partnership with Stratiteq Sweden AB. We managed to create a system in which the company can submit a digital receipt, which they are going to write manually on the website, as well as check all receipts, that has been submitted already. We chose to build the system with React and Firebase, because that way, the system and code can easily be extended in the future. We have also added a bot from the Power Virtual Agents, that will provide the user with important information and answer different questions.
 
-
-Right now, the company has the ability to submit and check receipts, but we also have the idea where the company can scan the receipts, and then either use cognitive AI that can read the written by hand receipts, and upload the information digitally, or scan the receipts and then upload them as images in the Firebase Storage. 
-The storage is really easy to use, even for people without any technical knowledge – the company goes on the website, presses ‘upload a new receipt’, and upload the receipt, which will be saved in the Firebase storage. Those images will then be presented on the website, with the option to add the date in which they have been uploaded.
-No matter which option the company chooses, they will have the ability to submit and retrieve important information, which will make their work a lot easier, by having everything digitally, instead of writing it manually.
-
-
 ## Our Demo
 [Receipts Management System](https://firebase.google.com/docs/firestore)
 
