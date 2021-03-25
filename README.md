@@ -1,56 +1,28 @@
-## Project title
-A little info about your project and/ or overview that explains **what** the project is about.
+## Receipts Management System
+Receipts Management System is a web based solution that we are submitting to the "Climate Hackathon" organized by Microsoft in partnership with Stratiteq Sweden AB.
 
-## Motivation
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+## Our Demo
+[Receipts Management System](https://firebase.google.com/docs/firestore)
 
-## Build status
-Build status of continus integration i.e. travis, appveyor etc. Ex. - 
-
-[![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/akashnimare/foco?branch=master&svg=true)](https://ci.appveyor.com/project/akashnimare/foco/branch/master)
-
-## Code style
-If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. -
-
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
- 
-## Screenshots
-Include logo/demo screenshot etc.
+## Inspiration
+As a team we were inspired by the idea behind the hackathon - fighting climate change with technologies. By looking through all the organizations that took part of the hakacthon, we decided to tackle the challenge of "Waste". We choose the organization "Buy Food With Plastic" mostly because of their ideals and goals. We were inspired by their message - recycling plastic bottles and providing food for many families in some of the poorest countries in the world.
 
 ## Tech/framework used
-Ex. -
 
 <b>Built with</b>
-- [Electron](https://electron.atom.io)
+- [Cloud Firestore](https://firebase.google.com/docs/firestore)
+- [React](https://reactjs.org/docs/getting-started.html)
+- [Power Virtal Agents](https://docs.microsoft.com/en-us/power-virtual-agents/)
+- [Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/)
 
-## Features
-What makes your project stand out?
-
-## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+## What makes the project stand out?
+Our solution stands out for a few reasons. Firstly, people with no technical background can work with the system. This will save a lot of time and resources not only to the people involved with the organization, but to the organization itself. Secondly, we took into consideration that there might be more innovative and complex solutions to this problem. However, for us it is important to provide an easy fix to a complex thing. For that matter, the technologies we decided to proceed with are simple, but efficient and they do not need continues support or extra resources. Last but not least, the idea could be extented a lot by people with little or a lot of experience in the technical field. We wanted to make sure that more people will be able to build on top of this in the future.
 
 ## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
+- git clone https://github.com/Miimkkaa/BuyFoodWithPlasticHackathonSolution.git
+- cd BuyFoodWithPlasticHackathonSolution
+- npm install
+- npm start
 
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-Describe and show how to run the tests with code examples.
-
-## How to use?
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
-
-## Contribute
-
-Let people know how they can contribute into your project. A [contributing guideline](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md) will be a big plus.
-
-## Credits
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project. 
-
-#### Anything else that seems useful
-
-## License
-A short snippet describing the license (MIT, Apache etc)
+#### Note
+This project was part of the Microsoft hackathon "Climate hackathon".
