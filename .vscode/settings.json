@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/84f00927-95fc-45d1-919c-06e1dbd903bd/resourceGroups/editor/providers/Microsoft.Web/sites/receipts-management-system",
+    "appService.deploySubpath": "."
+}
