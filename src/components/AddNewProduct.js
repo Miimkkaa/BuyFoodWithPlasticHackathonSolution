@@ -16,7 +16,7 @@ const AddNewProduct = ({
       <div className="form-control">
         <div className="product-name">
           <label htmlFor="text" className="label">
-            Product name
+            Product
           </label>
           <input
             type="text"

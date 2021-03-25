@@ -8,7 +8,7 @@ function Product({ id, text, amount, price, onRemove }) {
         <div>${price}</div>
         <div>${totalProduct}</div>
         <div className="x_style" onClick={() => onRemove(id)}>
-          X
+          <i class="fas fa-trash-alt"></i>
         </div>
       </li>
     </>

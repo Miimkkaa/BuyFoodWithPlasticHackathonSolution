@@ -3,9 +3,9 @@ import { v4 as uuidv4 } from "uuid";
 import Product from "./Product";
 import Loading from "./Loading";
 import AddNewProduct from "./AddNewProduct";
-import GetReceipts from "./GetReceipts";
 import firebaseConfig from "./Firebase";
 import "firebase/firestore";
+import { Link } from "react-router-dom";
 
 const ProductsList = () => {
   const [products, setProducts] = useState([]);
@@ -56,7 +56,7 @@ const ProductsList = () => {
 
   const onCreate = () => {
     const db = firebaseConfig.firestore();
-    db.collection("spells").add({
+    db.collection("receipts").add({
       name: text,
       amount: amount,
       price: price,
@@ -100,14 +100,19 @@ const ProductsList = () => {
 
         {products.length > 0 && (
           <article>
-            <div className="totalPrices">Total: $1500{totalPrice}</div>
+            <div className="totalPrices">
+              <h4>Total</h4>
+              <h4>$ 1500</h4>
+            </div>
             <button className="receiptButton" type="submit" onClick={onCreate}>
               Submit Receipt
             </button>
           </article>
         )}
-        <GetReceipts />
       </div>
+      <Link to="/get-receipts" className="checkallButton">
+        Check All Receipts
+      </Link>
     </main>
   );
 };
