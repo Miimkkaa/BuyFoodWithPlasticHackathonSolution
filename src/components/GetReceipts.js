@@ -26,7 +26,7 @@ const GetReceipts = () => {
         {receipts.map((receipt, index) => (
           <Receipt
             key={index}
-            name={receipt.product}
+            product={receipt.product}
             price={receipt.price}
             amount={receipt.amount}
             total={receipt.total}

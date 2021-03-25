@@ -57,7 +57,7 @@ const ProductsList = () => {
   const onCreate = () => {
     const db = firebaseConfig.firestore();
     db.collection("receipts").add({
-      name: text,
+      product: text,
       amount: amount,
       price: price,
       total: sumProduct,

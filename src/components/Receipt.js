@@ -1,6 +1,6 @@
 import React from "react";
 
-const Receipt = ({ name, amount, price, total }) => {
+const Receipt = ({ product, amount, price, total }) => {
   return (
     <article className="receipt" style={{ padding: "3rem" }}>
       <div className="labels">
@@ -10,7 +10,7 @@ const Receipt = ({ name, amount, price, total }) => {
         <h3>Total </h3>
       </div>
       <li className="listitem" style={{ padding: "1rem 0rem" }}>
-        <div>{name}</div>
+        <div>{product}</div>
         <div>{amount}</div>
         <div>${price}</div>
         <div>${total}</div>
